@@ -2,9 +2,31 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <script>window.times = {start: Date.now()};</script>
+
   <title>London Layout</title>
 </head>
 <body>
+  <h1>London Layout</h1>
+  <p>This is the latest version of the London Layout map and website. We are currently under development but invite you to check back soon</p>
+  <img src="http://londonlayout.co.uk/img/suburban_zones.png" alt="" style="width:100%">
+  <script>
+  function ready(fn) {
+    if (document.readyState != 'loading'){
+      fn();
+    } else {
+      document.addEventListener('DOMContentLoaded', fn);
+    }
+  }
 
+  function time() {
+    console.log(Date.now() - window.times.start);
+  }
+
+  $img = document.querySelector('img');
+  $img.onload = time
+  ready(time);
+
+  </script>
 </body>
 </html>
