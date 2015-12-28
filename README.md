@@ -3,6 +3,11 @@ London Layout
 Alternative tube map for london
 
 ## Technology
+### Page Analytics
+Uses Google Analytics to track interactions on the page.
+Look at [piwik](http://piwik.org/) for similar analytics in the future.
+Or look at [Keen](keen.io) when moving to an app and needed to better record page events.
+
 ### Loading duration
 The very first rendering of the page will set the start time within the times object which can then be used as reference for later events.
 ```html
