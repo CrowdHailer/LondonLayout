@@ -3,7 +3,6 @@ London Layout
 Alternative tube map for london
 
 ## Priorities
-1. Rollup build step
 1. minimise HTML
 1. Splash screen
 1. Click off splash screen event (start time change to time zero)
