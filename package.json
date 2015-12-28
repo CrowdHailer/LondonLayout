@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rollup -c configuration/rollup.js && cp index.html ./www",
+    "build": "rollup -c configuration/rollup.js && cp index.html ./www && cp assets/favicon.ico ./www",
     "deploy": "surge -p ./ -d londonlayout.surge.sh",
     "serve": "superstatic ./www"
   },

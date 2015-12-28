@@ -2,9 +2,16 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <script>window.times = {start: Date.now()};</script>
+  <script>window.times = {zero: Date.now()};</script>
 
   <title>London Layout</title>
+
+  <meta name="description" content="London Layout is a fresh map for London's tube and rail network designed by an enthusiastic amateur. It aspires to capture the clarity of the original tube map for the extensive modern network.">
+  <meta name="author" content="Workshop 14 Limited">
+  <link rel="canonical" href="londonlayout.co.uk" />
+  <link rel="shortcut icon" href="/favicon.ico?v=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
 </head>
 <body>
   <h1>London Layout</h1>
@@ -23,7 +30,7 @@
   }
 
   function time() {
-    console.log(Date.now() - window.times.start);
+    console.log(Date.now() - window.times.zero);
   }
 
   $img = document.querySelector('img');
