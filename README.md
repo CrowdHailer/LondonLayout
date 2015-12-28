@@ -2,6 +2,25 @@ London Layout
 =============
 Alternative tube map for london
 
+## Priorities
+1. Rollup build step
+1. minimise HTML
+1. Splash screen
+1. Click off splash screen event (start time change to time zero)
+1. Send load time and click off time to keen as datapoints
+1. minimise JS
+1. minimise CSS
+1. Page speed index as build step
+1. About page
+1. 404 page
+1. log level from query params
+1. back button works to update app state
+1. error tracking
+1. inline actual map
+1. click and drag map
+1. search for station
+1. comparison to existing tube map
+
 ## Technology
 ### Page Analytics
 Uses Google Analytics to track interactions on the page.
